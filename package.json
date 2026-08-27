@@ -1,0 +1,12 @@
+{
+  "name": "knowledge-base",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build",
+    "import": "cd server && node import.js",
+    "start": "cd server && node index.js",
+    "setup": "npm run install:all && npm run build && npm run import"
+  }
+}

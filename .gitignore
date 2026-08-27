@@ -1,0 +1,45 @@
+node_modules/
+client/dist/
+server/data/config.json
+server/data/ai-config.json
+server/data/app.sqlite
+server/data/app.sqlite-shm
+server/data/app.sqlite-wal
+server/data/notes.json
+server/data/settings.json
+server/data/uploads/
+server/data/notes.backup-*.json
+server/data/*.bak
+server/data/
+*.bak
+server/logs/
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+
+# 归档/打包产物
+*.tar.gz
+deploy-package/
+
+# 临时分析产物
+.codex-analysis/
+
+# 个人文档与设计资料(非应用代码)
+API+函数/
+Agent/
+Steering/
+UI布局组件/
+_resources/
+rules/
+个人工作/
+前端UI方案/
+工作安排/
+开发规划/
+提示词/
+项目开发文档/
+
+# 大图(非应用引用)
+logo.png
+首页字体.png

@@ -1,0 +1,22 @@
+{
+  "name": "knowledge-base-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "import": "node import.js",
+    "migrate:sqlite": "node migrate-sqlite.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "better-sqlite3": "^12.10.0",
+    "cheerio": "1.0.0",
+    "compression": "^1.8.1",
+    "cors": "2.8.5",
+    "express": "4.21.2",
+    "jsonwebtoken": "9.0.2",
+    "jszip": "^3.10.1",
+    "mammoth": "^1.12.0",
+    "multer": "1.4.5-lts.1"
+  }
+}
